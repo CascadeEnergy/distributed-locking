@@ -1,7 +1,7 @@
 {
-  "name": "cascade-energy/distributed-locking",
+  "name": "CascadeEnergy/distributed-locking",
   "description": "Base distributed locking library",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
     {
