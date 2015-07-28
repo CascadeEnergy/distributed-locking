@@ -1,6 +1,6 @@
 <?php
 
-namespace Cascade\DistributedLocking;
+namespace CascadeEnergy\DistributedLocking;
 
 interface ILockSessionProvider
 {

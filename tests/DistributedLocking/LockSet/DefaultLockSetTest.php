@@ -1,9 +1,8 @@
 <?php
 namespace Tests\DistributedLocking\LockSet;
 
-use Cascade\DistributedLocking\ILockProvider;
-use Cascade\DistributedLocking\LockSet\DefaultLockSet;
-use Cascade\DistributedLocking\LockSet\ILockSet;
+use CascadeEnergy\DistributedLocking\LockSet\DefaultLockSet;
+use CascadeEnergy\DistributedLocking\LockSet\ILockSet;
 
 class DefaultLockSetTest extends \PHPUnit_Framework_TestCase
 {
@@ -15,7 +14,7 @@ class DefaultLockSetTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->lockProvider = $this->getMock('Cascade\\DistributedLocking\\ILockProvider');
+        $this->lockProvider = $this->getMock('CascadeEnergy\\DistributedLocking\\ILockProvider');
 
         /** @noinspection PhpParamsInspection */
         $this->lockSet = new DefaultLockSet($this->lockProvider);

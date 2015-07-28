@@ -11,12 +11,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "Cascade\\": "src/"
+      "CascadeEnergy\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Cascade\\Tests\\": "tests/"
+      "CascadeEnergy\\Tests\\": "tests/"
     }
   },
   "require-dev": {

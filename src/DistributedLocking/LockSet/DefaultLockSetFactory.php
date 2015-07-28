@@ -1,8 +1,8 @@
 <?php
 
-namespace Cascade\DistributedLocking\LockSet;
+namespace CascadeEnergy\DistributedLocking\LockSet;
 
-use Cascade\DistributedLocking\ILockProvider;
+use CascadeEnergy\DistributedLocking\ILockProvider;
 
 class DefaultLockSetFactory implements ILockSetFactory
 {

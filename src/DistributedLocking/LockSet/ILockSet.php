@@ -1,6 +1,6 @@
 <?php
 
-namespace Cascade\DistributedLocking\LockSet;
+namespace CascadeEnergy\DistributedLocking\LockSet;
 
 interface ILockSet
 {
